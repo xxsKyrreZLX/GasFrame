@@ -1,0 +1,247 @@
+# Unreal Engine 5 Project .gitignore
+
+# Visual Studio 2019/2022
+.vs/
+*.vcxproj.user
+*.vcxproj.filters
+*.vcxproj.user
+*.sln.docstates
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Visual Studio Code
+.vscode/
+
+# Build results
+[Dd]ebug/
+[Dd]ebugPublic/
+[Rr]elease/
+[Rr]eleases/
+x64/
+x86/
+[Aa][Rr][Mm]/
+[Aa][Rr][Mm]64/
+bld/
+[Bb]in/
+[Oo]bj/
+[Ll]og/
+[Ll]ogs/
+
+# Unreal Engine specific
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+Plugins/*/Binaries/
+Plugins/*/Intermediate/
+Plugins/*/Saved/
+
+# Compiled Dynamic libraries
+*.so
+*.dylib
+*.dll
+
+# Fortran module files
+*.mod
+
+# Compiled Static libraries
+*.lai
+*.la
+*.a
+*.lib
+
+# Executables
+*.exe
+*.out
+*.app
+
+# Unreal Engine cache files
+*.tmp
+*.temp
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Windows specific
+*.lnk
+
+# Crash reports
+*.dmp
+*.mdmp
+
+# Logs
+*.log
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Perforce
+.p4config
+.p4ignore
+
+# JetBrains IDEs
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+*.elc
+auto-save-list
+tramp
+.\#*
+
+# Backup files
+*.bak
+*.backup
+*.old
+*.orig
+
+# Temporary files
+*.tmp
+*.temp
+
+# Package files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+# Unreal Engine specific additional files
+*.uproject.DotSettings
+*.uproject.DotSettings.user
+*.uproject.DotSettings.user.DotSettings
+
+# Shader cache
+ShaderCache/
+
+# Local configuration files that might contain sensitive information
+Config/DefaultInput.ini
+Config/DefaultGameUserSettings.ini
+
+# Keep important config files but ignore user-specific ones
+!Config/DefaultEngine.ini
+!Config/DefaultGame.ini
+!Config/DefaultEditor.ini
+!Config/DefaultGameplayTags.ini
+
+# Ignore user-specific editor settings
+Saved/Config/WindowsEditor/
+Saved/Config/WindowsNoEditor/
+
+# Ignore autosave files
+Saved/Autosaves/
+
+# Ignore crash reports
+Saved/Crashes/
+
+# Ignore logs
+Saved/Logs/
+
+# Ignore collections
+Saved/Collections/
+
+# Ignore shader debug info
+Saved/ShaderDebugInfo/
+
+# Ignore UnrealBuildTool cache
+Saved/UnrealBuildTool/
+
+# Ignore package restore data
+Saved/PackageRestoreData.json
+
+# Ignore auto screenshots
+Saved/AutoScreenshot.png
+
+# Keep the main project file
+!Mythos.uproject
+
+# Keep solution file
+!Mythos.sln
+
+# Keep source code
+!Source/
+!Source/**/*.cpp
+!Source/**/*.h
+!Source/**/*.cs
+
+# Ignore large content files to keep repository size manageable
+Content/
+!Content/ThirdPerson/
+!Content/ThirdPerson/**/*.uasset
+!Content/ThirdPerson/**/*.umap
+!Content/TestSkill/
+!Content/TestSkill/**/*.uasset
+!Content/Enemies/
+!Content/Enemies/**/*.uasset
+!Content/Input/
+!Content/Input/**/*.uasset
+!Content/Blueprints/
+!Content/Blueprints/**/*.uasset
+
+# Ignore large audio files
+Content/Audio/
+
+# Ignore large character assets
+Content/Characters/UE5_Mannequins/
+Content/Characters/UE4_Mannequin/
+Content/Characters/Mannequins/
+Content/Characters/MetaHumans/
+
+# Ignore large animation files
+Content/Animations/
+
+# Ignore level prototyping assets
+Content/LevelPrototyping/
+
+# Keep config files that are needed for the project
+!Config/DefaultEngine.ini
+!Config/DefaultGame.ini
+!Config/DefaultEditor.ini
+!Config/DefaultGameplayTags.ini
+!Config/DefaultInput.ini
