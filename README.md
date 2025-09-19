@@ -47,16 +47,11 @@ The project focuses on scalable architecture, precise damage calculation, and so
 
 ## 🛠️ Implementation Details
 
-- Developed a delegate-driven event system for real-time updates of attributes and UI
+- Developed a delegate-driven event system for real-time updates of attributes
 - Designed Execution Calculations in GAS to separate logic for damage and healing
 - Implemented vector math and AoE range checks for accurate skill targeting
 - Followed Unreal Engine best practices for clean C++ architecture and extensibility
 
-## 🚀 Getting Started
-
-### Prerequisites
-- Unreal Engine 5.0 or later
-- Visual Studio 2019/2022 (Windows) or Xcode (macOS)
 
 ### Installation
 1. Clone the repository:
@@ -102,17 +97,7 @@ The system supports:
 - **Modular damage calculations** with critical hit mechanics
 - **Extensible ability system** for easy skill creation
 
-## 🤝 Contributing
 
-1. Fork the repository
-2. Create your feature branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-## 📄 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## 🙏 Acknowledgments
 
